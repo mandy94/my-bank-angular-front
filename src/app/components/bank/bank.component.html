@@ -1,0 +1,10 @@
+<h2>Bank name</h2>
+<div> 
+    something about banks
+    <div *ngFor="let client of clients">
+        s
+        <a [routerLink] = "['/client', client.id]"> {{client.ime}} </a>
+    </div>
+</div>
+            
+<app-transfer-order></app-transfer-order>
